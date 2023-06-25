@@ -1,0 +1,17 @@
+.workspace-drawer.mod-left.is-pinned > .workspace-drawer-inner,
+.workspace-drawer.mod-left {
+  background-color: var(--background-primary) !important;
+}
+
+.workspace-drawer.is-pinned {
+  margin-top: -16px;
+}
+
+.is-mobile {
+  --divider-width: 0px !important;
+}
+
+.workspace-tab-header-container {
+  border-bottom: none;
+  background-color: transparent;
+}

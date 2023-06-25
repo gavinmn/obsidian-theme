@@ -1,0 +1,14 @@
+body {
+  --background-modifier-hover: rgba(var(--mono-rgb-100), 0.055);
+  --checkbox-radius: 100px;
+  --checkbox-size: 18px;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,12 @@
+body {
+  --link-decoration: none;
+  --checklist-done-decoration: none;
+}
+
+.cm-formatting.cm-formatting-link-string.cm-string.cm-url.external-link {
+  display: none;
+}
+
+.workspace-leaf-content[data-type="file-explorer"] > .nav-header {
+  display: none;
+}

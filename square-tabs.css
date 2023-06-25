@@ -1,0 +1,20 @@
+.workspace-tab-header-container-inner {
+  margin-top: -1px;
+  margin-left: -15px;
+}
+
+.workspace-tab-header {
+  border-radius: 0;
+}
+
+.workspace-tab-header::after,
+.workspace-tab-header::before {
+  display: none;
+}
+
+.workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+  display: none;
+}
+.workspace-tab-header:hover .workspace-tab-header-inner-close-button {
+  display: flex;
+}

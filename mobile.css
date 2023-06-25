@@ -1,0 +1,13 @@
+.is-mobile .view-header-title,
+.is-mobile .view-header-title-parent,
+.is-mobile .view-actions > .view-action > svg.svg-icon.lucide-book-open,
+.is-mobile .view-actions > .view-action > svg.svg-icon.lucide-bookmark,
+.workspace-drawer-active-tab-back-icon,
+.is-mobile .navbar-action-flair {
+  display: none !important;
+}
+
+.is-mobile .workspace-drawer {
+  max-width: 100%;
+  width: 100%;
+}
