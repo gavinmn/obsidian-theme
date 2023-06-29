@@ -1,0 +1,16 @@
+.cm-s-obsidian span.cm-inline-code {
+  color: var(--inline-code-color);
+  background-color: var(--inline-code-background);
+  padding: 2px 1px;
+  border-radius: 4px;
+}
+
+.theme-light {
+  --inline-code-color: hsla(211, 100%, 50%, 1);
+  --inline-code-background: hsla(211, 100%, 50%, 0.05);
+}
+
+.theme-dark {
+  --inline-code-color: hsla(210, 100%, 52%, 1);
+  --inline-code-background: hsla(210, 100%, 52%, 0.08);
+}

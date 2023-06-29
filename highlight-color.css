@@ -1,0 +1,14 @@
+.theme-light .cm-s-obsidian span.cm-highlight {
+  background-color: hsla(167, 100%, 68%, 0.1);
+  color: hsl(167, 100%, 28%);
+}
+
+.theme-dark .cm-s-obsidian span.cm-highlight {
+  background-color: hsla(167, 100%, 50%, 0.1);
+  color: hsl(167, 100%, 85%);
+}
+
+.cm-s-obsidian span.cm-highlight {
+  padding: 2px 1px;
+  border-radius: 4px;
+}

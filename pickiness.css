@@ -2,6 +2,20 @@ body {
   --background-modifier-hover: rgba(var(--mono-rgb-100), 0.055);
   --checkbox-radius: 100px;
   --checkbox-size: 18px;
+  --checklist-done-color: var(--color-base-60);
+  --list-spacing: 0.175em;
+}
+
+input[type="checkbox"]:checked {
+  border-width: 1px;
+}
+
+input[type="checkbox"] {
+  border-width: 1.5px;
+}
+
+.is-mobile {
+  --checkbox-size: 20px;
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-begin-bg {
