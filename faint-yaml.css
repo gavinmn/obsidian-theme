@@ -1,0 +1,13 @@
+.cm-line:has(.cm-def.cm-hmd-frontmatter),
+.cm-atom,
+.cm-atom + .cm-hmd-frontmatter.cm-meta {
+  display: none !important;
+}
+
+.cm-hmd-frontmatter {
+  opacity: 0.5;
+}
+
+.cm-content > .cm-line:has(.cm-atom.cm-hmd-frontmatter) {
+  margin-bottom: 1rem !important;
+}

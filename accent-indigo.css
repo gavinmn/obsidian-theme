@@ -1,0 +1,11 @@
+.theme-light {
+  --accent-h: 246 !important;
+  --accent-s: 56% !important;
+  --accent-l: 56% !important;
+}
+
+.theme-dark {
+  --accent-h: 245 !important;
+  --accent-s: 77% !important;
+  --accent-l: 61% !important;
+}
