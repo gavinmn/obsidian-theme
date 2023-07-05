@@ -15,7 +15,7 @@ input[type="checkbox"] {
 }
 
 .is-mobile {
-  --checkbox-size: 20px;
+  --checkbox-size: 22px !important;
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-begin-bg {

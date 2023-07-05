@@ -1,0 +1,14 @@
+body {
+  --mobile-toolbar-height: 48px;
+}
+
+.theme-light .mobile-toolbar {
+  background-color: #f2f1f3;
+}
+.theme-dark .mobile-toolbar {
+  background-color: var(--color-base-20);
+}
+
+.mobile-toolbar-option {
+  color: var(--text-normal);
+}

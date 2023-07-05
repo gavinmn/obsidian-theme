@@ -1,0 +1,12 @@
+body {
+  --nav-indentation-guide-width: 0px;
+}
+
+.nav-folder-collapse-indicator {
+  display: none !important;
+}
+
+.nav-folder-title {
+  font-weight: 500;
+  color: var(--text-faint) !important;
+}

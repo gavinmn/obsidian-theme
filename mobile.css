@@ -3,11 +3,35 @@
 .is-mobile .view-actions > .view-action > svg.svg-icon.lucide-book-open,
 .is-mobile .view-actions > .view-action > svg.svg-icon.lucide-bookmark,
 .workspace-drawer-active-tab-back-icon,
-.is-mobile .navbar-action-flair {
+.is-mobile .navbar-action-flair,
+.workspace-drawer-header-name-chevron,
+.svg-icon.lucide-maximize,
+.workspace-drawer-header-name {
   display: none !important;
 }
 
 .is-mobile .workspace-drawer {
   max-width: 100%;
   width: 100%;
+}
+
+.is-mobile {
+  --file-margins: var(--size-4-2) 26px;
+}
+
+.workspace-drawer-header-info {
+  color: var(--text-faint);
+}
+
+.workspace-drawer-active-tab-title,
+.workspace-drawer-active-tab-icon {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.workspace-drawer-active-tab-header {
+  padding-bottom: 8px;
+}
+.nav-files-container {
+  padding-top: 4px !important;
 }
