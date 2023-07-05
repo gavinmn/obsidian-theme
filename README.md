@@ -1,4 +1,4 @@
-# Gavin's Obsidian Theme
+# Gavin's Obsidian snippets
 
 Apply these snippets on top of the default Obsidian theme.
 
