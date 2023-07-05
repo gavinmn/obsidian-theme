@@ -30,3 +30,13 @@ The tab snippets are mutually exclusive in use.
 
 - `mobile.css` provides iPhone specific changes
 - `ipad.css` provides iPad specific changes (these still need work...)
+
+### Misc
+
+- `faint-yaml.css` is pretty particular—it minimizes the diaply of YAML frontmatter in a very opinionated and pretty fragile way. Disclaimer is this might not work for you at all if you use a lot of YAML. My use for it is to take frontmatter that includes only the created date in a specific format, and display it as shown below:
+<img width="314" alt="CleanShot 2023-07-05 at 10 26 37@2x" src="https://github.com/gavinmn/obsidian-theme/assets/59900904/f45a4e62-ebd6-4232-840c-1d031133a1b4">
+
+- `sidebar-redesign.css` cleans up the sidebar a bit and removes a lot of UI detail on Mobile
+- `sf-symbols.css` replaces the Obsidian checkmark svg with the SF Symbols checkmark
+- `highlight-color.css` changes the highlight color to a teal
+- `code-color.css` changes inline code styling to use blue
